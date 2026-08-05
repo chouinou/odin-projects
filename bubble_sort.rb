@@ -17,7 +17,6 @@ def bubble_sort(array)
             
             i += 1
 
-            puts array
         
         end
                
@@ -27,4 +26,4 @@ def bubble_sort(array)
 
 end
 
-bubble_sort([4,3,78,2,0,2,0,12,11,85,86,32,54,66,66,512,354684,32154,3,78,2,0,2,0,12,11,85,86,32])
+bubble_sort([456,4,3,78,2,0,2,0,12,11,85,32])
