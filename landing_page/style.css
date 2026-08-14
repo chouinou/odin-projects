@@ -1,0 +1,123 @@
+
+
+/*  general declaration */
+.flex_container {
+    display:flex;
+}
+
+a, .header_section, .hero_section, .action_section, .footer {
+    color: white;
+}
+
+.header_section, .hero_section {
+    background-color: #1f2937;
+}
+
+.button, .action_section{
+    background-color: #3882f6;
+}
+
+.button{
+    flex-basis:20px;
+    border-radius: 25px ;
+}
+
+a {
+    text-decoration:none;
+}
+
+/* header specifics */
+
+.header_section {
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_logo {
+    font-size: 24px;
+}
+
+.header_links {
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+
+/* hero specifics */
+
+.hero_section {
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+    margin:none;
+}
+
+.hero_left {
+    flex-direction: column;
+    width: 450px;
+}
+
+.hero_button {
+    background-color: #3882f6;
+    font-size: 18px;
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 40px;
+    align-items: center;
+
+}
+
+.hero_right{
+    flex:1;
+    justify-content:center;
+    align-items:center;
+    flex:1
+}
+
+/* infos section */
+
+/* action section */
+.action_section {
+}
+
+
+footer {
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+/* Font: Roboto (you will need to download and install this font if you don’t already have it)
+Dark background color (header, hero section and footer): #1F2937
+Logo text:
+Font size: 24px
+Color: #F9FAF8
+
+Hero section main text (“This website is awesome”):
+Font size: 48px
+Color: #F9FAF8
+Weight: 900
+
+Hero secondary text (“This website has some subtext…”) and header links:
+Font size: 18px
+Color: #E5E7EB
+
+Button and “Call to action” background color: #3882F6
+
+Information heading:
+Font size: 36px
+Color: #1F2937
+Weight: 900
+
+Quote:
+Background color: #E5E7EB
+Font size: 36px
+Color: #1F2937
+Weight: 300
+Font style: italic */
