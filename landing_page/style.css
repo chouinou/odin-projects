@@ -5,15 +5,15 @@
     display:flex;
 }
 
-a, .header_section, .hero_section, .action_section, .footer {
+a, .header, .hero, .action, .footer {
     color: white;
 }
 
-.header_section, .hero_section {
+.header, .hero {
     background-color: #1f2937;
 }
 
-.button, .action_section{
+.button, .action{
     background-color: #3882f6;
 }
 
@@ -28,7 +28,7 @@ a {
 
 /* header specifics */
 
-.header_section {
+.header {
     background-color: #1f2937;
     justify-content: space-around;
     align-items: center;
@@ -46,7 +46,7 @@ a {
 
 /* hero specifics */
 
-.hero_section {
+.hero {
     justify-content: space-around;
     align-items: center;
     gap: 48px;
@@ -78,8 +78,27 @@ a {
 
 /* infos section */
 
+.why {
+    flex-direction: column;
+    align-items: center;
+}
+
+#card_title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
+.cards {
+    border: 4px solid #3882f6;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
 /* action section */
-.action_section {
+.action {
 }
 
 
