@@ -5,7 +5,7 @@
     display:flex;
 }
 
-a, .header, .hero, .action, .footer {
+a, button, .header, .hero, .action_box, .footer {
     color: white;
 }
 
@@ -13,14 +13,15 @@ a, .header, .hero, .action, .footer {
     background-color: #1f2937;
 }
 
-.button, .action{
+button, .action_box, #hero_btn, #action_btn {
+    border-radius: 10px;
+}
+
+button, .action_box{
     background-color: #3882f6;
 }
 
-.button{
-    flex-basis:20px;
-    border-radius: 25px ;
-}
+
 
 a {
     text-decoration:none;
@@ -58,12 +59,11 @@ a {
     width: 450px;
 }
 
-.hero_button {
+#hero_btn {
     background-color: #3882f6;
     font-size: 18px;
     border: none;
     font-weight: 700;
-    border-radius: 10px;
     padding: 10px 40px;
     align-items: center;
 
@@ -116,21 +116,29 @@ a {
 }
 
 /* action section */
-.action {
+
+.action_box {
+    justify-content: space-around;
+    margin: 40px 20px 40px 10px;
 }
 
+#action_btn {
+    border: solid, 2px, white;
+}
 
-footer {
+#action_text {
+    font-weight: 800s;
+}
+
+.footer {
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
-
-
 }
 
 
 
-/* Font: Roboto (you will need to download and install this font if you don’t already have it)
+/* Font: Roboto
 Dark background color (header, hero section and footer): #1F2937
 Logo text:
 Font size: 24px
