@@ -21,8 +21,6 @@ button, .action_box{
     background-color: #3882f6;
 }
 
-
-
 a {
     text-decoration:none;
 }
@@ -31,12 +29,13 @@ a {
 
 .header {
     background-color: #1f2937;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .header_logo {
     font-size: 24px;
+    font-weight: 900;
 }
 
 .header_links {
@@ -44,36 +43,31 @@ a {
     gap: 20px;
 }
 
-
 /* hero specifics */
 
 .hero {
     justify-content: space-around;
     align-items: center;
     gap: 48px;
-    margin:none;
+    padding-left: 40px;
+    padding-bottom: 50px;
 }
 
 .hero_left {
-    flex-direction: column;
     width: 450px;
 }
 
 #hero_btn {
     background-color: #3882f6;
-    font-size: 18px;
+    font-size: 20px;
     border: none;
     font-weight: 700;
-    padding: 10px 40px;
-    align-items: center;
+    padding:5px 15px 5px 15px;
 
 }
 
 .hero_right{
-    flex:1;
-    justify-content:center;
-    align-items:center;
-    flex:1
+    padding-right: 40px;
 }
 
 /* infos section */
@@ -88,42 +82,53 @@ a {
     font-weight: 900;
 }
 
+.cards_container {
+    gap: 20px;
+    justify-content: space-between;
+}
 
 .cards {
     border: 4px solid #3882f6;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 15px;
-    margin: 5px;
+    margin: 10px;
 }
 
-/* Quote */
+/* quote */
 
 .quote_box {
     background-color: lightgray;
     flex-direction: column;
+    padding: 40px 80px 40px 80px;
 }
 
 #quote {
     font-style:italic;
-    font-size: 36px;
-    font-weight: 300;
+    font-size: 36px;        
 }
 
 #author {
     align-self: self-end;
     font-weight: 900;
+    font-size: 24px;
+    padding-right: 80px;
 }
 
 /* action section */
 
 .action_box {
-    justify-content: space-around;
-    margin: 40px 20px 40px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 5px 0px 5px 0px;
+    margin: 80px 150px 80px 150px;
 }
 
 #action_btn {
     border: solid, 2px, white;
+    padding: 0spx 0px 0px 0px;
+    height: 30px;
 }
 
 #action_text {
